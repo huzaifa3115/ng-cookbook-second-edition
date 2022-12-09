@@ -9,7 +9,8 @@
     "serve": "sh scripts/serve-projects.sh",
     "create": "sh scripts/create-projects.sh",
     "start": "cd start && nx serve",
-    "final": "cd final && nx serve"
+    "final": "cd final && nx serve",
+    "copy": "sh scripts/copy-start-to-final.sh"
   },
   "keywords": [],
   "author": "",
