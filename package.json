@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "concurrently \"cd start && npm i\"  \"cd final && npm i\""
+    "postinstall": "concurrently \"cd start && npm i\"  \"cd final && npm i\"",
+    "serve": "sh scripts/serve-projects.sh",
+    "create": "sh scripts/create-projects.sh",
+    "start": "cd start && nx serve",
+    "final": "cd final && nx serve"
   },
   "keywords": [],
   "author": "",

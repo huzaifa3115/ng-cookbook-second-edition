@@ -12,9 +12,9 @@ This should install the dependencies of both the `start` and `final` monorepos.
 Serve both the start and final projects as follows:
 
 ```bash
-sh scripts/start-projects.sh CHAPTER_NO APP_NAME
+npm run serve CHAPTER_NO APP_NAME
 ## example
-sh scripts/start-projects.sh 01 cc-inputs-outputs
+npm run serve 01 cc-inputs-outputs
 ```
 
 
@@ -22,5 +22,5 @@ sh scripts/start-projects.sh 01 cc-inputs-outputs
 
 ### Generate Projects
 ```
-sh scripts/create-projects.sh 01 cc-inputs-outputs
+npm run create 01 cc-inputs-outputs
 ```
